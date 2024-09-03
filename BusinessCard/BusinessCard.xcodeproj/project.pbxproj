@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D902FF2C8692720048EB69 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D902FE2C8692720048EB69 /* Launch Screen.storyboard */; };
 		04F429E52BDF2E30002C5FFB /* BusinessCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F429E42BDF2E30002C5FFB /* BusinessCardApp.swift */; };
 		04F429E72BDF2E30002C5FFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F429E62BDF2E30002C5FFB /* ContentView.swift */; };
 		04F429E92BDF2E32002C5FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F429E82BDF2E32002C5FFB /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D902FD2C8691E80048EB69 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		04D902FE2C8692720048EB69 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		04F429E12BDF2E30002C5FFB /* BusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F429E42BDF2E30002C5FFB /* BusinessCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardApp.swift; sourceTree = "<group>"; };
 		04F429E62BDF2E30002C5FFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D902FC2C8691A50048EB69 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04D902FD2C8691E80048EB69 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		04F429D82BDF2E30002C5FFB = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +105,12 @@
 		04F429E32BDF2E30002C5FFB /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				04D902FC2C8691A50048EB69 /* Fonts */,
 				04F429E42BDF2E30002C5FFB /* BusinessCardApp.swift */,
 				04F429E62BDF2E30002C5FFB /* ContentView.swift */,
 				04F429E82BDF2E32002C5FFB /* Assets.xcassets */,
 				04F429EA2BDF2E32002C5FFB /* Preview Content */,
+				04D902FE2C8692720048EB69 /* Launch Screen.storyboard */,
 			);
 			path = BusinessCard;
 			sourceTree = "<group>";
@@ -231,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D902FF2C8692720048EB69 /* Launch Screen.storyboard in Resources */,
 				04F429EC2BDF2E32002C5FFB /* Preview Assets.xcassets in Resources */,
 				04F429E92BDF2E32002C5FFB /* Assets.xcassets in Resources */,
 			);

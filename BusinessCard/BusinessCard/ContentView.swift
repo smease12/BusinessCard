@@ -12,7 +12,10 @@ struct ContentView: View {
         ZStack {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            Text("Hello World!")
+            Text("John Doe")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .bold()
+                .foregroundColor(.white)
         }
     }
 }
